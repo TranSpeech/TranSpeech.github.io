@@ -12,9 +12,12 @@ Audio samples are available at <a href="https://TranSpeech.github.io/"><i>https:
 
 <br>
 
-# TranSpeech: Speech-to-Speech Translation With Bilateral Perturbation
+# Bilateral Perturbation
 
-## BIP
+Utterances with the single-perturbed acoustic condition, remaining the linguistic content unchanged. 
+
+RR: random resampling. F: a chain function $F = fs(pr(peq(x)))$ for random pitch shifting. 
+
 
 <br>
 <ruby>Text: really interesting work will finally be undertaken on that topicreally interesting work will finally be undertaken on that topic.</ruby>
@@ -62,6 +65,13 @@ Audio samples are available at <a href="https://TranSpeech.github.io/"><i>https:
 </table>
 
 <br/>
+
+# Translation Results
+DirectS2ST: Baseline model in `Direct speech-to-speech translation with discrete units.`
+
+TextlessS2ST: Baseline model in `Textless speech-to-speech translation on real data.`
+
+TranSpeech: TranSpeech with 5 mask-predict iterations.
 
 ## En-Es
 
