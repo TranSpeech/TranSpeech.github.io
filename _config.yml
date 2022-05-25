@@ -1,0 +1,7 @@
+theme: jekyll-theme-cayman
+layout: default
+markdown: kramdown
+kramdown:
+  toc_levels: 1..2
+title: "TranSpeech: Speech-to-Speech Translation With Bilateral Perturbation"
+
