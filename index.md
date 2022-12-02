@@ -16,18 +16,19 @@ Audio samples are available at <a href="https://TranSpeech.github.io/"><i>https:
 
 Utterances with the single-perturbed acoustic condition, remaining the linguistic content unchanged. 
 
-RR: random resampling. F: a chain function $F = fs(pr(peq(x)))$ for random pitch shifting. 
+RR: random resampling. F: a chain function for random pitch shifting. 
 
 
 <br>
-<ruby>Text: really interesting work will finally be undertaken on that topicreally interesting work will finally be undertaken on that topic.</ruby>
+<ruby>Text: really interesting work will finally be undertaken on that topic.</ruby>
 <table>
 	<thead>
 		<tr>
 			<th style="text-align: center">Original</th>
             <th style="text-align: center">Pitch Norm</th>
 			<th style="text-align: center">Energy Norm</th>
-			<th style="text-align: center">F</th>
+			<th style="text-align: center">F = fs(pr(peq(x)))</th>
+            <th style="text-align: center">F' = peq(fs(pr(x)))</th>
             <th style="text-align: center">RR</th>
 		</tr>
 	</thead>
@@ -36,7 +37,8 @@ RR: random resampling. F: a chain function $F = fs(pr(peq(x)))$ for random pitch
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/BiP/1_original.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/BiP/1_pitch_norm.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/BiP/1_energy_norm.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/BiP/1_F.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/BiP/1_original_fs_peq.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/BiP/1_original_peq_fs.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/BiP/1_RR.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
@@ -49,7 +51,8 @@ RR: random resampling. F: a chain function $F = fs(pr(peq(x)))$ for random pitch
 			<th style="text-align: center">Original</th>
             <th style="text-align: center">Pitch Norm</th>
 			<th style="text-align: center">Energy Norm</th>
-			<th style="text-align: center">F</th>
+			<th style="text-align: center">F = fs(pr(peq(x)))</th>
+            <th style="text-align: center">F' = peq(fs(pr(x)))</th>
             <th style="text-align: center">RR</th>
 		</tr>
 	</thead>
@@ -58,7 +61,8 @@ RR: random resampling. F: a chain function $F = fs(pr(peq(x)))$ for random pitch
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/BiP/2_original.wav" type="audio/wav"></audio></td>
 			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/BiP/2_pitch_norm.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/BiP/2_energy_norm.wav" type="audio/wav"></audio></td>
-			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/BiP/2_F.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/BiP/2_original_fs_peq.wav" type="audio/wav"></audio></td>
+			<td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/BiP/2_original_peq_fs.wav" type="audio/wav"></audio></td>
             <td style="text-align: center"><audio controls style="width: 150px;"><source src="wav_for_demo/BiP/2_RR.wav" type="audio/wav"></audio></td>
 		</tr>
 	</tbody>
